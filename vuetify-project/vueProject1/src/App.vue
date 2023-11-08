@@ -1,7 +1,5 @@
 <template>
-  <v-app-bar flat>
-   
-  </v-app-bar>
+  <router-view />
 </template>
 
 <script setup>

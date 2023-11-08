@@ -1,7 +1,7 @@
 <template>
-  <v-app-bar flat>
-   
-  </v-app-bar>
+  <v-main>
+    <router-view />
+  </v-main>
 </template>
 
 <script setup>

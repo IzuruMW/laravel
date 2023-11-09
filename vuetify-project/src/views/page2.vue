@@ -1,5 +1,7 @@
 <template>
-<h1>Isuru Vue</h1>
+    <center>
+<h1>page 2</h1>
+</center>
 </template>
 <script>
 export default{};

@@ -1,29 +1,24 @@
 <template>
+  <center> 
+
  <h1> Hello world!</h1>
 
  <div>
- <button @click=" directPage()">submit</button>
+ <button @click=" directPage()">submit page1</button>
  <br><br>
- <button @click=" directPage12()">submit1</button> <br><br>
- <button @click="abc()"> abc</button>
+ <button @click=" directPage12()">submit page2</button> <br><br>
+ <button @click="abc()"> submit page2</button>
  </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<page1/>
+<page2/>
+</center>
 </template>
 
 <script >
+import page1 from "@/views/page1.vue";
+import page2 from"@/views/page2.vue";
 export default{
   methods:{
 directPage()
@@ -38,8 +33,12 @@ directPage12(){
  },
  
 },
-
+components :{
+  page1,
+  page2
   
+}
+
 };
- 
+
 </script>

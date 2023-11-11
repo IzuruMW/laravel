@@ -19,13 +19,13 @@
 <!-- <page2/>; -->
 
 
-<v-img
+<!-- <v-img
   :width="300"
   aspect-ratio="16/9"
   cover
-  src="../assets/images/u131.png"
-></v-img>
-
+  src="../assets/images/u35.png"
+></v-img> -->
+<br><br>
 <v-row>
   <v-col cols="12" sm="2" ><v-img src="../assets/images/u131.png" width="300"></v-img> </v-col>
   <v-col cols="12" sm="2" style="width: 300px;"><v-img src="../assets/images/u11.png" width="300"></v-img></v-col>
